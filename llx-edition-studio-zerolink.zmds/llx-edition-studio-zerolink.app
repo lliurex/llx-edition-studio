@@ -1,0 +1,17 @@
+Name=llx-edition-studio
+Name[es]=LlX Edition Studio
+Name[en]=LlX Edition Studio
+Name[qcv]=LlX Edition Studio
+Name[ca_ES]=LlX Edition Studio
+Comment=Select programs to install included in LliureX Edition Studio
+Comment[es]=Selecciona los programas para instalar incluidos en la selección de LliureX Edition Studio
+Comment[qcv]=Select programs to install included in LliureX Edition Studio
+Comment[ca_ES]=Select programs to install included in LliureX Edition Studio
+Icon=llx-edition-studio-zerolink
+Groups=sudo;admins;
+Category=System
+ScriptPath=llx-edition-studio-zerolink.zmd
+Using=pkexec
+Service=True
+Modal=True
+Locks=llx-edition-studio
