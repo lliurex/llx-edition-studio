@@ -1,0 +1,17 @@
+{
+
+	"type":"apt",
+
+	"pkg_list": [{"name":"audacity"},{"name":"webcamoid"},{"name":"cheese"},{"name":"kdenlive"}], 
+
+	"repository": [{"url":"deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main"}], 
+
+	"script": {"name":"/usr/share/llx-edition-studio/llx-edition-studio_script", "remove":true},
+
+	"zomando":"llx-edition-studio",
+
+	"selection_enabled":{"active":true,"all_selected":false}
+
+
+
+	}
