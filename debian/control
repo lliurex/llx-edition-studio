@@ -1,0 +1,13 @@
+Source: llx-edition-studio
+Section: admin
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Daniel Duran Vecino <daduve@gmail.com>
+Build-Depends: llxsrchelper,debhelper (>= 9), zero-dev
+Standards-Version: 3.9.5
+
+Package: llx-edition-studio
+Architecture: all
+Depends: ${misc:Depends}, 
+Description: Adding shortcut in zero-center to install some programs for your home video studio 
+
