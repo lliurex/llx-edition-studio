@@ -12,6 +12,6 @@ Groups=sudo;admins;
 Category=Software
 ScriptPath=llx-edition-studio.zmd
 Using=pkexec
-Service=True
+Service=False
 Modal=True
 Locks=llx-edition-studio
