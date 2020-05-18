@@ -2,7 +2,7 @@
 
 	"type":"apt",
 
-	"pkg_list": [{"name":"audacity",key-store="audacity"},{"name":"webcamoid",key-store="webcamoid"},{"name":"cheese",key-store="cheese"},{"name":"kdenlive",key-store="kdenlive"},{"name":"obs-studio",key-store="obs-studio"},{"name":"cin",key-store="cin"},{"name":"shotcut",key-store="shotcut"},{"name":"openshot",key-store="openshot"},{"name":"vlc",key-store="vlc"},{"name":"selene",key-store="selene"},{"name":"handbrake",key-store="handbrake"},{"name":"ubuntu-restricted-extras",key-store="ubuntu-restricted-extras"},{"name":"libdvdnav4",key-store="libdvdnav4"},{"name":"libdvd-pkg",key-store="libdvd-pkg"},{"name":"gstreamer1.0-plugins-bad",key-store="gstreamer1.0-plugins-bad"},{"name":"gstreamer1.0-plugins-ugly",key-store="gstreamer1.0-plugins-ugly"},{"name":"libdvd-pkg",key-store="libdvd-pkg"}], 
+	"pkg_list": [{"name":"audacity"},{"name":"webcamoid"},{"name":"cheese"},{"name":"kdenlive"},{"name":"obs-studio"},{"name":"cin"},{"name":"shotcut"},{"name":"openshot"},{"name":"vlc"},{"name":"selene"},{"name":"handbrake"},{"name":"ubuntu-restricted-extras"},{"name":"libdvdnav4"},{"name":"libdvd-pkg"},{"name":"gstreamer1.0-plugins-bad"},{"name":"gstreamer1.0-plugins-ugly"},{"name":"libdvd-pkg"}], 
 
 	"repository": [{"url":"deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main"},{"url":"deb [trusted=yes] https://cinelerra-gg.org/download/pkgs/ub18 bionic main"},{"url":"deb http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu bionic main"}], 
 
