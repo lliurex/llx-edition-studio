@@ -2,7 +2,7 @@
 
 	"type":"apt",
 
-	"pkg_list": [{"name":"audacity","custom_name":"Audacity","custom_icon":"audacity.png"},{"name":"webcamoid","custom_name":"Webcamoid","custom_icon":"webcamoid.png"},{"name":"cheese","custom_name":"Cheese webcam","custom_icon":"cheese.png"},{"name":"kdenlive"},{"name":"obs-studio"},{"name":"cin"},{"name":"shotcut"},{"name":"openshot"},{"name":"vlc"},{"name":"selene"},{"name":"handbrake"},{"name":"ubuntu-restricted-extras"},{"name":"libdvdnav4"},{"name":"libdvd-pkg"},{"name":"gstreamer1.0-plugins-bad"},{"name":"gstreamer1.0-plugins-ugly"},{"name":"libdvd-pkg"}], 
+	"pkg_list": [{"name":"audacity","custom_name":"Audacity","custom_icon":"audacity.png"},{"name":"webcamoid","custom_name":"Webcamoid","custom_icon":"webcamoid.png"},{"name":"cheese","custom_name":"Cheese webcam","custom_icon":"cheese.png"},{"name":"kdenlive","custom_name":"kdenlive","custom_icon":"kdenlive.png"},{"name":"obs-studio","custom_name":"OBS Studio","custom_icon":"obs-studio.png"},{"name":"cin"},{"name":"shotcut"},{"name":"openshot"},{"name":"vlc"},{"name":"selene"},{"name":"handbrake"},{"name":"ubuntu-restricted-extras"},{"name":"libdvdnav4"},{"name":"libdvd-pkg"},{"name":"gstreamer1.0-plugins-bad"},{"name":"gstreamer1.0-plugins-ugly"},{"name":"libdvd-pkg"}], 
 
 	"repository": [{"url":"deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main"},{"url":"deb [trusted=yes] https://cinelerra-gg.org/download/pkgs/ub18 bionic main"},{"url":"deb http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu bionic main"}], 
 
@@ -13,7 +13,6 @@
 	"custom_icon_path":"/usr/share/llx-edition-studio/",
 
 	"selection_enabled":{"active":true,"all_selected":false}
-
 
 
 	}
