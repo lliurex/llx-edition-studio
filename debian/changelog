@@ -1,3 +1,9 @@
+llx-edition-studio (0.3) bionic; urgency=medium
+
+  * Adding Ubuntu repos 
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 24 Jul 2020 13:01:43 +0200
+
 llx-edition-studio (0.2) bionic; urgency=high
 
   * Adding new EPI configuration, icons, custom names... 
