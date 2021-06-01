@@ -10,6 +10,31 @@ PACKAGE_LIST=$@
 
 case $ACTION in
 
+	preInstall)
+
+		#START openshot-qt
+			if [[ " ${PACKAGE_LIST[*]} " == *" openshot-qt "* ]]; then
+				echo " * * Start Pre-Installing python3-openshot * * "
+				apt update
+				apt install python3-openshot -y
+				echo " * * Pre-Installed python3-openshot * * "
+			fi
+		#END openshot-qt
+		
+	;;	
+	
+	postInstall)
+	
+		#START libdvd-package
+			if [[ " ${PACKAGE_LIST[*]} " == *" libdvd-pkg "* ]]; then
+				echo " * * Start Post-Installing libdvd-pkg * * "
+				dpkg-reconfigure -f noninteractive libdvd-pkg
+				echo " * * Finished Post-Installing libdvd-pkg * * "
+			fi
+		#END libdvd-package
+			
+	;;	
+
 	remove)
 
 		for ix in $PACKAGE_LIST	
