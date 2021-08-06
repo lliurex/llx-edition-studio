@@ -19,6 +19,13 @@ case $ACTION in
 				apt install python3-openshot -y
 				echo " * * Pre-Installed python3-openshot * * "
 			fi
+
+			if [[ " ${PACKAGE_LIST[*]} " == *" selene "* ]]; then
+				echo " * * Downloading Selene dependences... * * "
+				apt update
+				apt install fdkaac lame libaudio2 libdirectfb-1.7-7 libenca0 libfdk-aac1 libffms2-4 libgpac4 libmediainfo0v5 libvorbisidec1 libzen0v5 mediainfo mkvtoolnix mplayer vorbis-tools x264 -y
+				echo " * * Pre-Installed selene dependences * * "
+			fi
 		#END openshot-qt
 		
 	;;	
