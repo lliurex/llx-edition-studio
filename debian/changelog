@@ -1,3 +1,9 @@
+llx-edition-studio (0.4) focal; urgency=medium
+
+  * Changing install method to selene al type MIX in EPI 
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 06 Aug 2021 10:39:11 +0200
+
 llx-edition-studio (0.3) focal; urgency=medium
 
   * First version to focal
