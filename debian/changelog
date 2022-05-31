@@ -1,3 +1,10 @@
+llx-edition-studio (0.5) focal-updates; urgency=medium
+
+  * Added new apps: pitivi,slowmovideo,subtitleeditor,synfingstudio,vokoscreen
+  * Recategorized to Multimedia
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 31 May 2022 10:02:12 +0200
+
 llx-edition-studio (0.4) focal; urgency=medium
 
   * Changing install method to selene al type MIX in EPI 
