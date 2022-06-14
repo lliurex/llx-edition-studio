@@ -1,3 +1,9 @@
+llx-edition-studio (0.6) lliurex22; urgency=medium
+
+  * Allow all groups
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 14 Jun 2022 13:23:23 +0200
+
 llx-edition-studio (0.5) focal-updates; urgency=medium
 
   * Added new apps: pitivi,slowmovideo,subtitleeditor,synfingstudio,vokoscreen
