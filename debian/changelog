@@ -1,3 +1,10 @@
+llx-edition-studio (0.3.1) bionic-updates; urgency=medium
+
+  * Allow all groups
+  * Changed category to Multimedia
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 15 Nov 2022 10:00:31 +0100
+
 llx-edition-studio (0.3) bionic; urgency=medium
 
   * Adding Ubuntu repos 
