@@ -10,6 +10,19 @@ PACKAGE_LIST=$@
 
 case $ACTION in
 
+	preInstall)
+
+        #START shotcut
+                if [[ " ${PACKAGE_LIST[*]} " == *" shotcut "* ]]; then
+                        echo "Predpends shotcut....."
+                    	apt install libsdl2-dev -y
+                                #apt update
+                                echo "Installed libsdl2-dev......."
+
+                fi
+        #END shotcut
+
+    ;;	
 	remove)
 
 		for ix in $PACKAGE_LIST	
