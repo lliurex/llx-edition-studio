@@ -1,3 +1,9 @@
+llx-edition-studio (0.4.1) bionic-updates; urgency=medium
+
+  * Fixed from repository
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 15 Nov 2022 10:32:00 +0100
+
 llx-edition-studio (0.3.1) bionic-updates; urgency=medium
 
   * Allow all groups
