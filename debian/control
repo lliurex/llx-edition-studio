@@ -1,0 +1,14 @@
+Source: llx-edition-studio
+Section: x11
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Daniel Duran Vecino <daduve@gmail.com>
+Build-Depends: llxsrchelper,debhelper (>= 10), zero-dev, inkscape(>=0.47)
+Standards-Version: 4.1.2
+
+Package: llx-edition-studio
+Architecture: all
+Depends: zero-center,epi-gtk
+Description: llx edition studio 
+	Adding shortcut in zero-center to install some programs for your home video studio 
+

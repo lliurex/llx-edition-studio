@@ -1,0 +1,42 @@
+llx-edition-studio (0.6) lliurex22; urgency=medium
+
+  * Allow all groups
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 14 Jun 2022 13:23:23 +0200
+
+llx-edition-studio (0.5) focal-updates; urgency=medium
+
+  * Added new apps: pitivi,slowmovideo,subtitleeditor,synfingstudio,vokoscreen
+  * Recategorized to Multimedia
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 31 May 2022 10:02:12 +0200
+
+llx-edition-studio (0.4) focal; urgency=medium
+
+  * Changing install method to selene al type MIX in EPI 
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 06 Aug 2021 10:39:11 +0200
+
+llx-edition-studio (0.3) focal; urgency=medium
+
+  * First version to focal
+
+ -- Daniel Duran <daduve@gmail.com>  Tue, 01 Jun 2021 17:27:11 +0200
+
+llx-edition-studio (0.3) bionic; urgency=medium
+
+  * Adding Ubuntu repos 
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 24 Jul 2020 13:01:43 +0200
+
+llx-edition-studio (0.2) bionic; urgency=high
+
+  * Adding new EPI configuration, icons, custom names... 
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 26 Jun 2020 17:05:07 +0200
+
+llx-edition-studio (0.1) bionic; urgency=medium
+
+  * Initial release.
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Tue, 10 Mar 2020 09:15:25 +0100
