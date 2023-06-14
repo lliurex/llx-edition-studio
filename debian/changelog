@@ -1,3 +1,10 @@
+llx-edition-studio (0.7) focal; urgency=medium
+
+  * Removed Vlc from list
+  * Changed shotcut to install from flatpak instead apt
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 14 Jun 2023 14:23:57 +0200
+
 llx-edition-studio (0.6.1) focal; urgency=medium
 
   * Fixed installation of selene
