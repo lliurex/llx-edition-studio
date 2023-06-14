@@ -28,8 +28,8 @@ case $ACTION in
 			fi
 		#END openshot-qt
 		
-	;;	
-	
+	;;
+
 	postInstall)
 	
 		#START libdvd-package
@@ -47,21 +47,24 @@ case $ACTION in
 		for ix in $PACKAGE_LIST	
 
 		do
+			if [[ "$ix" == "org.shotcut.Shotcut" ]]; then
+				flatpak uninstall $ix -y
+				TEST=$(flatpak list | grep shotcut | cut -d " " -f 1)
 
+				if [[ ! -z "$TEST" ]];then
+					exit 1
+				fi
+			else
+				apt-get remove -y $ix
 
+				TEST=$( dpkg-query -s  $ix 2> /dev/null| grep Status | cut -d " " -f 4 )
 
-			apt-get remove -y $ix
+				if [ "$TEST" == 'installed' ];then
 
-			TEST=$( dpkg-query -s  $ix 2> /dev/null| grep Status | cut -d " " -f 4 )
+					exit 1
 
-			if [ "$TEST" == 'installed' ];then
-
-				exit 1
-
+				fi
 			fi
-
-							
-
 		done		
 
 	;;	
