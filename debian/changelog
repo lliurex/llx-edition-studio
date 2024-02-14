@@ -1,3 +1,9 @@
+llx-edition-studio (1.6.1) jammy; urgency=medium
+
+  * Cinelerra from focal
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 14 Feb 2024 09:33:28 +0100
+
 llx-edition-studio (1.6ubuntu1) jammy; urgency=medium
 
   * Deleting Selene Converter in Jammy, not exist.
