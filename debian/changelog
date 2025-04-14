@@ -1,3 +1,9 @@
+llx-edition-studio (1.16.3) noble; urgency=medium
+
+  * Unallow students
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 14 Apr 2025 14:44:44 +0200
+
 llx-edition-studio (1.16.2) noble; urgency=medium
 
   * Initial release for Noble
