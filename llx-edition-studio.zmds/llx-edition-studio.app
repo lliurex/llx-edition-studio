@@ -15,3 +15,4 @@ Using=pkexec
 Service=False
 Modal=True
 Locks=llx-edition-studio
+Show=False
