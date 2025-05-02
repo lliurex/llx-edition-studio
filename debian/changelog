@@ -1,3 +1,9 @@
+llx-edition-studio (1.16.4) noble; urgency=medium
+
+  * Hide installation from Zero-Center.
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 02 May 2025 10:14:55 +0200
+
 llx-edition-studio (1.16.3) noble; urgency=medium
 
   * Unallow students
