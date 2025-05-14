@@ -1,2 +1,2 @@
 #!/bin/bash
-epi-gtk /usr/share/llx-edition-studio/llx-edition-studio.epi
+epi-gtk /usr/share/llx-edition-studio/llx-edition-studio.epi $1
