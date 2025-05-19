@@ -1,3 +1,10 @@
+llx-edition-studio (1.16.8) noble; urgency=medium
+
+  * Removed slowmovideo from list
+  * Replaced vokoscreen by vokoscreen-ng in flatpak version
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 19 May 2025 11:53:32 +0200
+
 llx-edition-studio (1.16.7) noble; urgency=medium
 
   * Added support to launch zmd with pkg name as argument
