@@ -61,7 +61,15 @@ case $ACTION in
 
 				if [[ ! -z "$TEST" ]];then
 					exit 1
-				fi			
+				fi
+			fi
+			if [[ "$ix" == "com.github.vkohaupt.vokoscreenNG" ]]; then
+				flatpak uninstall $ix -y
+				TEST=$(flatpak list | grep vokoscreen | cut -d " " -f 1)
+
+				if [[ ! -z "$TEST" ]];then
+					exit 1
+				fi
 			else
 				apt-get remove -y $ix
 
